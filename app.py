@@ -134,4 +134,4 @@ def hour_res():
     return render_template('hour.html', data=hour_res)
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run(debug=False)
